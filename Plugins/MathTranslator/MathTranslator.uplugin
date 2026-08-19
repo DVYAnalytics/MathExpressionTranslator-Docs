@@ -1,0 +1,24 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Math Translator API",
+	"Description": "Translates LaTeX, LibreOffice, Excel, Matlab, and plain text expressions into Unreal Engine FMath syntax and handles geographic coordinate conversions.",
+	"Category": "Math",
+	"CreatedBy": "LostInThought",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MathTranslator",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

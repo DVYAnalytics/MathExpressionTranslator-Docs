@@ -1,0 +1,50 @@
+﻿# ==========================================
+# Unreal Engine Standard Git Ignore
+# ==========================================
+
+# Intermediate, binary, and compiled build outputs
+Binaries/
+[Bb]inaries/
+Intermediate/
+[Ii]ntermediate/
+DerivedDataCache/
+[Dd]erivedDataCache/
+Saved/
+[Ss]aved/
+Build/
+[Bb]uild/
+
+# Plugin-specific binaries and intermediate data
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+Plugins/**/DerivedDataCache/
+
+# Visual Studio / Rider / IDE temp folders and solutions
+.vs/
+.idea/
+*.sln
+*.slnx
+*.xcodeproj
+*.xcworkspace
+*.VC.db
+*.opendb
+*.vsconfig
+CMakeLists.txt
+.vscode/
+
+# Local workspace configs & auto-generated schemas
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf
+
+# Unreal Engine crash reports, log dumps, and telemetry
+AutoSave/
+*.log
+*.dmp
+CrashReportClient/
+
+# Local OS files
+.DS_Store
+Thumbs.db
+desktop.ini
