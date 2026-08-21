@@ -35,7 +35,7 @@
 ### 2. Math Expression Translation (Blueprint Workflow)
 
 1. Open any Actor or Widget Blueprint.
-2. In the Event Graph, right-click and search for the **Translate Math Expression** node.
+2. In the Event Graph, right-click and search for the **Translate Math String to UE** node.
 3. Pass a supported mathematical string into the `Expression Input` pin:
 * **LaTeX:** `\frac{\sin(x)}{\cos(y)}`
 * **MATLAB / Octave:** `power(x, 2) + log10(y)`
